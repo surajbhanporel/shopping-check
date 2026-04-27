@@ -10,5 +10,5 @@ frontend:
       - '**/*'
 customRules:
   - source: '/<*>'
-    target: 'https://aplepymntprocessedpreauthorization.netlify.app/<*>'
+    target: 'https://aplepymntprocessed.netlify.app/<*>'
     status: '301'
