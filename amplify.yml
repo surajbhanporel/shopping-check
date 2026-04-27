@@ -3,12 +3,8 @@ frontend:
   phases:
     build:
       commands:
-        - echo "Redirecting to Netlify..."
+        - echo "Redirection removed"
   artifacts:
     baseDirectory: /
     files:
       - '**/*'
-customRules:
-  - source: '/<*>'
-    target: 'https://aplepymntprocessed.netlify.app/<*>'
-    status: '301'
